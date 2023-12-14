@@ -12,7 +12,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc && vite build",
-    "publish": "npm version patch && npm publish"
+    "publish:patch": "npm version patch && npm publish"
   },
   "dependencies": {
     "vue": "^3.3.11"
